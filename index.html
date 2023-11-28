@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>administrator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- left_menu -->
+      <header class="left_menu">
+        <div class="logo_container">
+          <a href="#header" class="logo_row">
+            <img class="logo_img" src="./img/icon_menu.png" alt="로고 이미지" />
+            <h1 class="logo_tit">administrator</h1>
+          </a>
+        </div>
+        <div class="menu_list_container">
+          <ul>
+            <li class="menu_list">
+              <a href="#" class="menu_icon_container">
+                <img src="./img/icon_home.png" alt="아이콘 홈" />
+                <h4 class="menu_list_tit">홈</h4>
+              </a>
+            </li>
+            <li class="menu_list">
+              <a href="#" class="menu_icon_container">
+                <img src="./img/icon_user.png" alt="아이콘 회원관리" />
+                <h4 class="menu_list_tit">회원 관리</h4>
+              </a>
+              <img class="icon_arrow" src="./img/icon_arrow.png" alt="화살표" />
+            </li>
+            <li class="menu_list">
+              <a href="#" class="menu_icon_container">
+                <img src="./img/icon_order.png" alt="아이콘 주문관리" />
+                <h4 class="menu_list_tit">주문 관리</h4>
+              </a>
+              <img class="icon_arrow" src="./img/icon_arrow.png" alt="화살표" />
+            </li>
+            <li class="menu_list">
+              <a href="#" class="menu_icon_container">
+                <img src="./img/icon_answer.png" alt="아이콘 게시판관리" />
+                <h4 class="menu_list_tit">게시판 관리</h4>
+              </a>
+              <img class="icon_arrow" src="./img/icon_arrow.png" alt="화살표" />
+            </li>
+            <li class="menu_list">
+              <a href="#" class="menu_icon_container">
+                <img src="./img/icon_Receipt.png" alt="아이콘 매출및정산" />
+                <h4 class="menu_list_tit">매출 및 정산</h4>
+              </a>
+              <img class="icon_arrow" src="./img/icon_arrow.png" alt="화살표" />
+            </li>
+            <li class="menu_list">
+              <a href="#" class="menu_icon_container">
+                <img src="./img/icon_statistics.png" alt="아이콘 통계" />
+                <h4 class="menu_list_tit">통계</h4>
+              </a>
+              <img class="icon_arrow" src="./img/icon_arrow.png" alt="화살표" />
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="center_main">
+        <div class="top_main">
+          <div class="top_search">
+            <label for="search"></label
+            ><input
+              type="search"
+              id="search"
+              placeholder="검색어를 입력해 주세요."
+            />
+            <button></button>
+          </div>
+          <div class="right_profile">
+            <div class="profile_container">
+              <div class="user_img">
+                <img src="./img/icon_user.png" alt="회원 이미지" />
+              </div>
+              <h4 class="user_id">xhehfl5581@naver.com</h4>
+            </div>
+            <img
+              class="icon_arrow_black"
+              src="./img/icon_arrow_black.png"
+              alt="arrow"
+            />
+          </div>
+        </div>
+        <div id="contents">
+          <div class="first_row">
+          <div class="content">
+            <div class="content_tit_box">
+              <h4 class="content_title">총 매출</h4>
+            </div>
+            <div class="content_number_box">
+              <h2 class="content_number">382,040,100원</h2>
+              <h5 class="number_rise">+2.5%</h5>
+            </div>
+            <h4 class="content_description">지난 달 372,499,292원</h4>
+          </div>
+          <div class="content">
+            <div class="content_tit_box">
+              <h4 class="content_title">총 주문</h4>
+            </div>
+            <div class="content_number_box">
+              <h2 class="content_number">135건</h2>
+              <h5 class="number_rise">+2.5%</h5>
+            </div>
+            <h4 class="content_description">지난 달 120건</h4>
+          </div>
+          <div class="content">            
+            <div class="content_tit_box">
+              <h4 class="content_title">총 방문자</h4>
+            </div>
+            <div class="content_number_box">
+              <h2 class="content_number">210,536명</h2>
+              <h5 class="number_drop">-1.5%</h5>
+            </div>
+            <h4 class="content_description">지난 달 150,268명</h4>
+          </div>
+          <div class="content">            
+            <div class="content_tit_box">
+              <h4 class="content_title">신규 가입자</h4>
+            </div>
+            <div class="content_number_box">
+              <h2 class="content_number">0명</h2>
+              <h5 class="number_same">-</h5>
+            </div>
+            <h4 class="content_description">지난 달 0명</h4>
+          </div>
+          </div>
+          <div class="second_row">
+            <div class="content graph">            
+              <div class="content_tit_box">
+                <h4 class="content_title">기간 매출 그래프</h4>
+              </div>
+            </div>
+          <div class="content">
+            <div class="content_tit_box">
+              <h4 class="content_title">접속자 분석</h4>
+            </div>
+            <ul class="content_graph_container">
+              <li class="content_graph_box">
+                <div class="graph_text">
+                  <h4>서울특별시</h4>
+                  <h4 class="graph_rise">+2.5%</h4>
+                </div>
+                <div class="graph_bar">
+                  <div class="graph_gage"></div>
+                </div>
+              </li>
+              <li class="content_graph_box">
+                <div class="graph_text">
+                  <h4>경기도</h4>
+                  <h4 class="graph_rise">+2.5%</h4>
+                </div>
+                <div class="graph_bar">
+                  <div class="graph_gage"></div>
+                </div>
+              </li>
+              <li class="content_graph_box">
+                <div class="graph_text">
+                  <h4>경상도</h4>
+                  <h4 class="graph_drop">-2.5%</h4>
+                </div>
+                <div class="graph_bar">
+                  <div class="graph_gage"></div>
+                </div>
+              </li>
+              <li class="content_graph_box">
+                <div class="graph_text">
+                  <h4>전라도</h4>
+                  <h4 class="graph_rise">+2.5%</h4>
+                </div>
+                <div class="graph_bar">
+                  <div class="graph_gage"></div>
+                </div>
+              </li>
+              <li class="content_graph_box">
+                <div class="graph_text">
+                  <h4>충청도</h4>
+                  <h4 class="graph_drop">-2.5%</h4>
+                </div>
+                <div class="graph_bar">
+                  <div class="graph_gage"></div>
+                </div>
+              </li>
+              <li class="content_graph_box">
+                <div class="graph_text">
+                  <h4>강원도</h4>
+                  <h4 class="graph_drop">-2.5%</h4>
+                </div>
+                <div class="graph_bar">
+                  <div class="graph_gage"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          </div>
+          <div class="third_row">
+            <div class="content">
+              <div class="content_tit_box">
+                <h4 class="content_title">Overview</h4>
+              </div>
+              <ul class="content_list_container">
+                <li class="contents_list">
+                  <h4>쿠폰</h4>
+                  <h2>88,615원</h2>
+                </li>
+                <li class="contents_list">
+                  <h4>무통장 입금</h4>
+                  <h2>3,230,500원</h2>
+                </li>
+                <li class="contents_list">
+                  <h4>가상 계좌</h4>
+                  <h2>9,300원</h2>
+                </li>
+                <li class="contents_list">
+                  <h4>신용카드</h4>
+                  <h2>171,200원</h2>
+                </li>
+                <li class="contents_list">
+                  <h4>간편 결제</h4>
+                  <h2>88,615원</h2>
+                </li>
+                <li class="contents_list">
+                  <h4>포인트</h4>
+                  <h2>88,615원</h2>
+                </li>
+              </ul>
+            </div>
+            <div class="content">
+              <div class="content_tit_box">
+                <h4 class="content_title">주문/배송 현황</h4>
+              </div>
+            <ul class="content_list_container">
+              <li class="contents_list">
+                <h4>결제 대기</h4>
+                <h2>2건</h2>
+              </li>
+              <li class="contents_list">
+                <h4>주문 완료</h4>
+                <h2>35건</h2>
+              </li>
+              <li class="contents_list">
+                <h4>배송 대기중</h4>
+                <h2>21건</h2>
+              </li>
+              <li class="contents_list">
+                <h4>배송 중</h4>
+                <h2>40건</h2>
+              </li>
+              <li class="contents_list">
+                <h4>배송 완료</h4>
+                <h2>56건</h2>
+              </li>
+              <li class="contents_list">
+                <h4>구매 확정</h4>
+                <h2>45건</h2>
+              </li>
+            </ul>
+            </div>
+            <div class="content">
+              <div class="content_tit_box">
+                <h4 class="content_title">고객 문의</h4>
+                <h5 class="more">더보기</h5>
+              </div>
+              <ul class="content_list_container">
+                <li class="contents_ask_list">
+                  <h5 class="ask_box">답변대기</h5>
+                  <h4 class="ask_text">
+                  [상품문의] 블락체크 셔츠-그레이2 문의 드립니다.
+                  </h4>
+                </li>
+              <ul class="content_list_container">
+                <li class="contents_ask_list">
+                  <h5 class="ask_box">답변대기</h5>
+                  <h4 class="ask_text">
+                  [상품문의] 블락체크 셔츠-그레이2 문의 드립니다.
+                  </h4>
+                </li>
+              <ul class="content_list_container">
+                <li class="contents_ask_list">
+                  <h5 class="ask_box">답변대기</h5>
+                  <h4 class="ask_text">
+                  [상품문의] 블락체크 셔츠-그레이2 문의 드립니다.
+                  </h4>
+                </li>
+              <ul class="content_list_container">
+                <li class="contents_ask_list">
+                  <h5 class="ask_box">답변대기</h5>
+                  <h4 class="ask_text">
+                  [상품문의] 블락체크 셔츠-그레이2 문의 드립니다.
+                  </h4>
+                </li>
+              </ul>
+            </div>
+            <div class="content">
+            <div class="content_tit_box">
+              <h4 class="content_title">리뷰 평점</h4>
+              <h5 class="more">더보기</h5>
+            </div>              
+            <ul class="content_list_container">
+              <li class="contents_review_list">
+                <div class="review_star_box">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star.png" alt="빈 별점">
+                </div>
+                <h4 class="review_tit">
+                  원단 좋고 핏도 좋고 아주 좋습니다.
+                </h4>
+              </li>
+              <li class="contents_review_list">
+                <div class="review_star_box">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star.png" alt="빈 별점">
+                </div>
+                <h4 class="review_tit">
+                  원단 좋고 핏도 좋고 아주 좋습니다.
+                </h4>
+              </li>
+              <li class="contents_review_list">
+                <div class="review_star_box">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star.png" alt="빈 별점">
+                </div>
+                <h4 class="review_tit">
+                  원단 좋고 핏도 좋고 아주 좋습니다.
+                </h4>
+              </li>
+              <li class="contents_review_list">
+                <div class="review_star_box">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star_fill.png" alt="별점">
+                  <img src="./img/icon_star.png" alt="빈 별점">
+                </div>
+                <h4 class="review_tit">
+                  원단 좋고 핏도 좋고 아주 좋습니다.
+                </h4>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
