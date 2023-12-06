@@ -14,6 +14,7 @@
   box-sizing: border-box;
 }
 body {
+  position: relative;
   background: #f9f9f9;
 }
 li {
@@ -29,11 +30,13 @@ a {
   display: flex;
   margin: 0 auto;
   width: 100%;
-  position: relative;
+  position: absolute;
+  top: 0;
   background: #f9f9f9;
 }
 .left_menu {
   position: fixed;
+  top: 0;
   width: 20%;
   height: 100%;
   overflow: hidden;
@@ -246,7 +249,9 @@ input {
 .second_row .content.graph {
   width: 74.5%;
 }
-
+.second_row .content.graph .graph_img {
+  padding-left: 40px;
+}
 .second_row .content_graph_box {
   display: block;
   margin-bottom: 16px;
